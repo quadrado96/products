@@ -30,7 +30,7 @@ public class Product {
 	}
 	
 	public String priceTag() {
-		return getName() + ", $" + getPrice();
+		return getName() + ", $" + String.format("%.2f" , getPrice());
 	}
 
 	
